@@ -1,0 +1,69 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: rgb(145, 213, 145);
+}
+
+header {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 130px;
+  font-weight: 200;
+  color:#000000;
+  background-color: rgb(145, 213, 145);
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: whitesmoke;
+  border-left: 3px solid black;
+  padding: 10px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 15px;
+}
+
+.row {
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #000900;
+  color: #fff;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: rgb(28, 28, 159);
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #ae12b6;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: rgb(12, 0, 0);
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
